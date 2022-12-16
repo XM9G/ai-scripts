@@ -19,6 +19,7 @@ while True:
 
   # Switch to Discord and press Ctrl+V and Enter
   pyautogui.hotkey("ctrl", "v")
+  pyautogui.typewrite(' hours')
   pyautogui.press("enter")
 
   # Print a message indicating that the value has been pasted
@@ -26,3 +27,5 @@ while True:
 
   # Pause the script for 1 hour
   time.sleep(3600)
+
+
